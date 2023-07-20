@@ -5,6 +5,7 @@ Variables    ../PageObjects/LoginPage.py
 
 ${LoginPageTitle}       Swag Labs
 ${SuccesfulLoginTitle}      Swag Labs
+${LoginPageHeader}      Swag Labs
 
 *** Keywords ***
 
@@ -13,6 +14,7 @@ Open My Browser
     Open Browser    ${URL}  ${Browser}
     Maximize Browser Window
     Title Should Be    ${LoginPageTitle}
+    Page Should Contain    ${LoginPageHeader}
     capture page screenshot     Screenshots/LoginPage.png
 
 Enter UserName And Password
@@ -23,6 +25,7 @@ Enter UserName And Password
     Input Password      ${PassWord_TextBox_ID}    ${Password}
 
 Click Sign In
+    Page Should Contain Button     ${Login_Button_ID}
     Click Button    ${Login_Button_ID}
 
 Verify Successful Login

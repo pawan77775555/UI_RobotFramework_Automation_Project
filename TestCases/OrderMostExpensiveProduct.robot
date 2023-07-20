@@ -11,7 +11,7 @@ ${URL}      https://www.saucedemo.com/
 ${Browser}      Chrome
 ${UserName}     standard_user
 ${Password}     dummy
-${FilterOption}     Price (low to high)
+${FilterOption}     Price (high to low)
 ${FirstName}        Pawan
 ${LastName}     Nahar
 ${Postal}       445001

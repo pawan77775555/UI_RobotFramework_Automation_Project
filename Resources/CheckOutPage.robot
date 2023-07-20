@@ -2,10 +2,12 @@
 Library    SeleniumLibrary
 Variables    ../PageObjects/CheckOutPage.py
 *** Variables ***
-${ProductsPageTitle}      Swag Labs
+${CheckOutPageTitle}      Swag Labs
+${CheckOutInfoPageHeader}        Checkout: Your Information
 *** Keywords ***
 Verify Title Of Checkout Page
-    Title Should Be    ${ProductsPageTitle}
+    Title Should Be    ${CheckOutPageTitle}
+    Page Should Contain     ${CheckOutInfoPageHeader}
     capture page screenshot     Screenshots/CheckoutPage.png
 
 Provide FirstName
@@ -32,3 +34,13 @@ Click On Finish
 Verify Successful Error Message
     Page Should Contain    Thank you for your order!
     capture page screenshot     Screenshots/CheckoutPage.png
+
+Verify Payment Information Is Visible
+    Page Should Contain    Payment Information
+
+Verify Shipping Information Is Visible
+    Page Should Contain    Shipping Information
+
+Verify Price Total Is Visible
+    Page Should Contain    Price Total
+

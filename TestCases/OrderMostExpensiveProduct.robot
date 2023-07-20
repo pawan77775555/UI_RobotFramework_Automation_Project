@@ -40,5 +40,5 @@ Order Cheapest Product
     Verify Shipping Information Is Visible
     Verify Price Total Is Visible
     Click On Finish
-    Verify Successful Error Message
+    Verify Successful Message
     Close All Browsers

@@ -31,7 +31,7 @@ Click On Finish
     capture page screenshot     Screenshots/CheckoutPage.png
     Click Element    ${Finish_Button_ID}
 
-Verify Successful Error Message
+Verify Successful Message
     Page Should Contain    Thank you for your order!
     capture page screenshot     Screenshots/CheckoutPage.png
 

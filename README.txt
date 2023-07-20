@@ -28,6 +28,6 @@ To test the Generic flow of ordering the product
 Steps to Execute :
 1. Provide all the required variables in OrderCheapestProduct.robot
 2. Navigate to terminal of IDE
-3. Use command : robot --variable Password:secret_sauce --outputdir Results TestCases/LoginPageTestCase.robot
+3. Use command : robot --variable Password:secret_sauce --outputdir Results TestCases/OrderCheapestProduct.robot
 4. Replace secret_sauce according to the password
 4. Click Enter

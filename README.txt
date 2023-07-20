@@ -23,7 +23,7 @@ Installation :
 5. Add intelliBot @SeleniumLibrary Patched (Help pycharm to identify .robot files)
 
 Usage :
-To test the Generic flow of ordering the product
+To test the Generic flow of ordering the product Sauce Demo Website
 
 Steps to Execute :
 1. Provide all the required variables in OrderCheapestProduct.robot

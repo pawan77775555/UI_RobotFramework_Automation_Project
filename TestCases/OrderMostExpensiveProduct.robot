@@ -17,7 +17,7 @@ ${LastName}     Nahar
 ${Postal}       445001
 
 *** Test Cases ***
-Order Cheapest Product
+Order Most Expensive Product
     Set Selenium Implicit Wait    5
     Open My Browser     ${URL}      ${Browser}
     Enter UserName And Password     ${UserName}     ${Password}

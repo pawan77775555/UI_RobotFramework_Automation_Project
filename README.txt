@@ -20,7 +20,8 @@ Installation :
 3. Install Selenium (pip install selenium==4.9.1 )
 4. Install Robot Framework (pip install robotframework)
 5. Install Robot Framework Selenium Library (pip install -U robotframework-seleniumlibrary)
-5. Add intelliBot @SeleniumLibrary Patched (Help pycharm to identify .robot files)
+6. Add intelliBot @SeleniumLibrary Patched (Help pycharm to identify .robot files)
+7. Download ChromeDriver which is compatible to Chrome Browser and save it in Python > Script Folder
 
 Usage :
 To test the Generic flow of ordering the product Sauce Demo Website

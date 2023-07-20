@@ -1,0 +1,5 @@
+FirstName_InputBox_ID = "id : first-name"
+LastName_InputBox_ID = "id : last-name"
+Postal_InputBox_ID = "id : postal-code"
+Continue_Button_ID = "id : continue"
+Finish_Button_ID = "id : finish"
